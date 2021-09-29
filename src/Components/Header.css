@@ -1,0 +1,35 @@
+.main {
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.location-input {
+  color: #002f34;
+  font-size: 1.596rem;
+  background: none;
+  /* border: none; */
+  outline: none;
+  padding: 0;
+  margin: 0 0 0 1.2rem;
+  width: 250px;
+  height: 40px;
+  border: 1px, black;
+}
+.search-input {
+  color: #002f34;
+  font-size: 1.596rem;
+  background: none;
+  /* border: none; */
+  outline: none;
+  padding: 0;
+  margin: 0 0 0 1.2rem;
+  width: 600px;
+  height: 40px;
+  border: 1px, black;
+
+
+}
+.login-button{
+  justify-content: center;
+  text-align: center;
+}
