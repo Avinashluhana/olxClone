@@ -3,17 +3,22 @@
   display: flex;
   /* justify-content: space-evenly; */
 }
-.location-input {
-  color: #002f34;
+.location-input > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
   font-size: 1.596rem;
-  background: none;
+}
+.location-input {
+  display: flex;
+  color: #002f34;
+  border: 2px solid black;
   /* border: none; */
   outline: none;
   padding: 0;
   margin: 0 0 0 1.2rem;
   width: 250px;
   height: 40px;
-  border: 1px, black;
 }
 .search-input {
   color: #002f34;
@@ -26,10 +31,21 @@
   width: 600px;
   height: 40px;
   border: 1px, black;
-
-
 }
-.login-button{
+.login-button {
   justify-content: center;
   text-align: center;
+}
+.search-icon {
+  margin-right: 50px;
+  margin-bottom: 20px !important;
+  font-size: 50px !important;
+}
+
+.search-button {
+  align-items: center;
+  background-color: #002f34 !important;
+  border-radius: 0 4px 4px 0;
+  height: 42px;
+  width: 48px;
 }
